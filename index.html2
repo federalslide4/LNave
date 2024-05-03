@@ -4,7 +4,17 @@
 		<title>Page Title</title>
 	</head>
 	<body>
-	<p style="color:red; style="font-size:300%">Word Dokument</p>
+	<p style="color:blue; style="font-size:400%">Knöpfe und Lampen</p>
+	 <img 
+	 src="./Strom aus.png" id="myimage"
+	 >
+	 <button onclick="document.getElementById('myimage').src='./Strom an.png'">
+	 AN
+	</button>
+		 <button onclick="document.getElementById('myimage').src='./Strom aus.png'">
+	 AUS
+	</button>
+	
 	<a href="./index.html">
 	 <br>Vorherige Seite</a>
 	
